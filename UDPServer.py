@@ -3,6 +3,7 @@ import hashlib
 import threading
 import time
 from datetime import datetime
+import logging
 from socket import *
 import sys
 
@@ -50,6 +51,8 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
     def handle(self):
         global minimo
         global numero_usuarios
+        global f
+        global logger
         numero_usuarios+=1
         global nombre_archivo
         while(numero_usuarios<minimo):
@@ -64,6 +67,7 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
 
         f = open(file_name, "rb")
         data = f.read(buf)
+        tiempo_inicial = int(round(time.time() * 1000))
         while (data):
             if socket.sendto(data, self.client_address):
                 print("sending ...")
@@ -72,6 +76,11 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
         socket.sendto(bytesSend, self.client_address)
         bytesSend=str.encode(hash_calculado)
         socket.sendto(bytesSend, self.client_address)
+        #data, addr = socket.recvfrom(buf)
+        tiempo_final = int(round(time.time() * 1000))
+        tiempo_total = tiempo_final-tiempo_inicial
+        logger.info(tiempo_total)
+        #print(data.decode("utf-8"))
         #socket.close()
         f.close()
 
@@ -84,10 +93,22 @@ if __name__ == "__main__":
     global minimo
     global numero_usuarios
     global hora_actual
+    global f
+    global logging
     now = datetime.now()
-    hora_actual = dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+    hora_actual = now.strftime("%d-%m-%Y %H:%M:%S")
+    nombre_log = hora_actual + ".txt"
+    f = open(nombre_log, 'x')
+    logging.basicConfig(filename=nombre_log,
+                        filemode='a',
+                        format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
+                        datefmt='%H:%M:%S',
+                        level=logging.DEBUG)
+    logger = logging.getLogger()
+    logger.info(hora_actual)
     numero_usuarios=0
     nombre_archivo  = input("Ingrese el nombre del archivo ")
+    logger.info(nombre_archivo)
     minimo = int(input("Ingrese el numero de usuarios en simultaneo a enviar"))
     hash_calculado = sha256sum(nombre_archivo)
     print(hash_calculado)
@@ -101,6 +122,7 @@ if __name__ == "__main__":
         print("Server started at {} port {}".format(HOST, PORT))
         while True: time.sleep(100)
     except (KeyboardInterrupt, SystemExit):
+        f.close()
         server.shutdown()
         server.server_close()
         exit()

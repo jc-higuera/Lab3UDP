@@ -35,9 +35,14 @@ try:
         if data==str.encode("fin"):
             break
     data, addr = s.recvfrom(buf)
+    hash_recibido = data.decode("utf-8")
     print(data.decode("utf-8"))
     print(rcv_filename)
     hash_calculado=sha256sum(rcv_filename)
+    if(hash_calculado==hash_recibido):
+        s.sendto(bytes("correcto" + "\n", "utf-8"), (host, port))
+    elif hash_recibido!=hash_calculado:
+        s.sendto(bytes("incorrecto" + "\n", "utf-8"), (host, port))
     print(hash_calculado)
 except timeout:
     f.close()
