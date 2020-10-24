@@ -1,5 +1,8 @@
 import socketserver
 import hashlib
+import threading
+import time
+from datetime import datetime
 from socket import *
 import sys
 
@@ -49,6 +52,8 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
         global numero_usuarios
         numero_usuarios+=1
         global nombre_archivo
+        while(numero_usuarios<minimo):
+            print(numero_usuarios)
         data = self.request[0].strip()
         socket = self.request[1]
         buf = 1024
@@ -78,11 +83,26 @@ if __name__ == "__main__":
     global hash_calculado
     global minimo
     global numero_usuarios
+    global hora_actual
+    now = datetime.now()
+    hora_actual = dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
     numero_usuarios=0
     nombre_archivo  = input("Ingrese el nombre del archivo ")
     minimo = int(input("Ingrese el numero de usuarios en simultaneo a enviar"))
     hash_calculado = sha256sum(nombre_archivo)
     print(hash_calculado)
     HOST, PORT = "localhost", 9999
-    with socketserver.UDPServer((HOST, PORT), MyUDPHandler) as server:
-        server.serve_forever()
+    server = ThreadedUDPServer((HOST, PORT), MyUDPHandler)
+    server_thread = threading.Thread(target=server.serve_forever)
+    server_thread.daemon = True
+
+    try:
+        server_thread.start()
+        print("Server started at {} port {}".format(HOST, PORT))
+        while True: time.sleep(100)
+    except (KeyboardInterrupt, SystemExit):
+        server.shutdown()
+        server.server_close()
+        exit()
+    # with socketserver.UDPServer((HOST, PORT), MyUDPHandler) as server:
+    #     server.serve_forever()
