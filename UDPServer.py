@@ -68,8 +68,10 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
         f = open(file_name, "rb")
         data = f.read(buf)
         tiempo_inicial = int(round(time.time() * 1000))
+        numero_paquetes = 0
         while (data):
             if socket.sendto(data, self.client_address):
+                numero_paquetes+=1
                 print("sending ...")
                 data = f.read(buf)
         bytesSend = str.encode("fin")
@@ -79,7 +81,13 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
         #data, addr = socket.recvfrom(buf)
         tiempo_final = int(round(time.time() * 1000))
         tiempo_total = tiempo_final-tiempo_inicial
-        logger.info(tiempo_total)
+        tiempo = "tiempo: "+ tiempo_total
+        logger.info(tiempo)
+        paquetes = "numero de fragmentos: "+numero_paquetes
+        logger.info(paquetes)
+        tamanio_total = numero_paquetes*buf
+        tamanio = "tamaño del archivo: "+tamanio_total
+        logger.info(tamanio)
         #print(data.decode("utf-8"))
         #socket.close()
         f.close()
