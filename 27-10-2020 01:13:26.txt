@@ -1,0 +1,269 @@
+01:13:26,605 root INFO 27-10-2020 01:13:26
+01:13:32,916 root INFO 100MB.mp4
+01:16:30,797 root INFO tiempo: 135941
+01:16:30,797 root INFO numero de fragmentos: 135140
+01:16:30,797 root INFO tamaño del archivo: 138383360
+01:16:38,306 root INFO tiempo: 143241
+01:16:38,306 root INFO numero de fragmentos: 135140
+01:16:38,306 root INFO tamaño del archivo: 138383360
+01:16:49,159 root INFO tiempo: 153566
+01:16:49,159 root INFO numero de fragmentos: 135140
+01:16:49,159 root INFO tamaño del archivo: 138383360
+01:16:53,651 root INFO tiempo: 157918
+01:16:53,651 root INFO numero de fragmentos: 135140
+01:16:53,651 root INFO tamaño del archivo: 138383360
+01:16:56,822 root INFO tiempo: 160667
+01:16:56,822 root INFO numero de fragmentos: 135140
+01:16:56,822 root INFO tamaño del archivo: 138383360
+01:17:02,665 root INFO tiempo: 166141
+01:17:02,665 root INFO numero de fragmentos: 135140
+01:17:02,666 root INFO tamaño del archivo: 138383360
+01:17:06,364 root INFO tiempo: 169295
+01:17:06,365 root INFO numero de fragmentos: 135140
+01:17:06,365 root INFO tamaño del archivo: 138383360
+01:17:06,499 root INFO tiempo: 169610
+01:17:06,499 root INFO numero de fragmentos: 135140
+01:17:06,499 root INFO tamaño del archivo: 138383360
+01:17:07,964 root INFO tiempo: 170526
+01:17:07,964 root INFO numero de fragmentos: 135140
+01:17:07,964 root INFO tamaño del archivo: 138383360
+01:17:10,901 root INFO tiempo: 173076
+01:17:10,901 root INFO numero de fragmentos: 135140
+01:17:10,901 root INFO tamaño del archivo: 138383360
+01:17:11,63 root INFO tiempo: 172334
+01:17:11,63 root INFO numero de fragmentos: 135140
+01:17:11,63 root INFO tamaño del archivo: 138383360
+01:17:13,71 root INFO tiempo: 174955
+01:17:13,71 root INFO numero de fragmentos: 135140
+01:17:13,71 root INFO tamaño del archivo: 138383360
+01:17:14,816 root INFO tiempo: 176379
+01:17:14,816 root INFO numero de fragmentos: 135140
+01:17:14,816 root INFO tamaño del archivo: 138383360
+01:17:16,431 root INFO tiempo: 176660
+01:17:16,431 root INFO numero de fragmentos: 135140
+01:17:16,431 root INFO tamaño del archivo: 138383360
+01:17:16,835 root INFO tiempo: 177657
+01:17:16,835 root INFO numero de fragmentos: 135140
+01:17:16,835 root INFO tamaño del archivo: 138383360
+01:17:18,487 root INFO tiempo: 179033
+01:17:18,487 root INFO numero de fragmentos: 135140
+01:17:18,487 root INFO tamaño del archivo: 138383360
+01:17:18,587 root INFO tiempo: 178201
+01:17:18,588 root INFO numero de fragmentos: 135140
+01:17:18,588 root INFO tamaño del archivo: 138383360
+01:17:18,807 root INFO tiempo: 178636
+01:17:18,807 root INFO numero de fragmentos: 135140
+01:17:18,807 root INFO tamaño del archivo: 138383360
+01:17:19,219 root INFO tiempo: 177478
+01:17:19,219 root INFO numero de fragmentos: 135140
+01:17:19,219 root INFO tamaño del archivo: 138383360
+01:17:20,606 root INFO tiempo: 179815
+01:17:20,607 root INFO numero de fragmentos: 135140
+01:17:20,607 root INFO tamaño del archivo: 138383360
+01:17:20,813 root INFO tiempo: 179416
+01:17:20,813 root INFO numero de fragmentos: 135140
+01:17:20,813 root INFO tamaño del archivo: 138383360
+01:17:20,873 root INFO tiempo: 178482
+01:17:20,873 root INFO numero de fragmentos: 135140
+01:17:20,873 root INFO tamaño del archivo: 138383360
+01:17:20,977 root INFO tiempo: 179906
+01:17:20,977 root INFO numero de fragmentos: 135140
+01:17:20,977 root INFO tamaño del archivo: 138383360
+01:17:21,786 root INFO tiempo: 178984
+01:17:21,786 root INFO numero de fragmentos: 135140
+01:17:21,786 root INFO tamaño del archivo: 138383360
+01:17:22,535 root INFO tiempo: 179141
+01:17:22,535 root INFO numero de fragmentos: 135140
+01:17:22,535 root INFO tamaño del archivo: 138383360
+01:17:22,647 root INFO tiempo: 179590
+01:17:22,647 root INFO numero de fragmentos: 135140
+01:17:22,648 root INFO tamaño del archivo: 138383360
+01:17:24,56 root INFO tiempo: 179665
+01:17:24,57 root INFO numero de fragmentos: 135140
+01:17:24,57 root INFO tamaño del archivo: 138383360
+01:17:24,590 root INFO tiempo: 182414
+01:17:24,590 root INFO numero de fragmentos: 135140
+01:17:24,590 root INFO tamaño del archivo: 138383360
+01:17:24,650 root INFO tiempo: 180831
+01:17:24,650 root INFO numero de fragmentos: 135140
+01:17:24,650 root INFO tamaño del archivo: 138383360
+01:17:25,786 root INFO tiempo: 181682
+01:17:25,786 root INFO numero de fragmentos: 135140
+01:17:25,786 root INFO tamaño del archivo: 138383360
+01:18:55,72 root INFO tiempo: 211682
+01:18:55,73 root INFO numero de fragmentos: 135140
+01:18:55,73 root INFO tamaño del archivo: 138383360
+01:18:55,808 root INFO tiempo: 211232
+01:18:55,809 root INFO numero de fragmentos: 135140
+01:18:55,809 root INFO tamaño del archivo: 138383360
+01:18:57,472 root INFO tiempo: 213809
+01:18:57,472 root INFO numero de fragmentos: 135140
+01:18:57,472 root INFO tamaño del archivo: 138383360
+01:18:57,817 root INFO tiempo: 213553
+01:18:57,817 root INFO numero de fragmentos: 135140
+01:18:57,817 root INFO tamaño del archivo: 138383360
+01:18:59,459 root INFO tiempo: 215468
+01:18:59,459 root INFO numero de fragmentos: 135140
+01:18:59,459 root INFO tamaño del archivo: 138383360
+01:19:00,102 root INFO tiempo: 215048
+01:19:00,102 root INFO numero de fragmentos: 135140
+01:19:00,102 root INFO tamaño del archivo: 138383360
+01:19:00,564 root INFO tiempo: 215217
+01:19:00,564 root INFO numero de fragmentos: 135140
+01:19:00,564 root INFO tamaño del archivo: 138383360
+01:19:01,119 root INFO tiempo: 213848
+01:19:01,119 root INFO numero de fragmentos: 135140
+01:19:01,119 root INFO tamaño del archivo: 138383360
+01:19:02,122 root INFO tiempo: 216491
+01:19:02,122 root INFO numero de fragmentos: 135140
+01:19:02,123 root INFO tamaño del archivo: 138383360
+01:19:02,245 root INFO tiempo: 215612
+01:19:02,246 root INFO numero de fragmentos: 135140
+01:19:02,246 root INFO tamaño del archivo: 138383360
+01:19:02,427 root INFO tiempo: 214523
+01:19:02,427 root INFO numero de fragmentos: 135140
+01:19:02,428 root INFO tamaño del archivo: 138383360
+01:19:02,857 root INFO tiempo: 216647
+01:19:02,857 root INFO numero de fragmentos: 135140
+01:19:02,857 root INFO tamaño del archivo: 138383360
+01:19:03,299 root INFO tiempo: 216421
+01:19:03,300 root INFO numero de fragmentos: 135140
+01:19:03,300 root INFO tamaño del archivo: 138383360
+01:19:03,355 root INFO tiempo: 215513
+01:19:03,356 root INFO numero de fragmentos: 135140
+01:19:03,356 root INFO tamaño del archivo: 138383360
+01:19:05,7 root INFO tiempo: 218300
+01:19:05,7 root INFO numero de fragmentos: 135140
+01:19:05,7 root INFO tamaño del archivo: 138383360
+01:19:06,264 root INFO tiempo: 217286
+01:19:06,264 root INFO numero de fragmentos: 135140
+01:19:06,264 root INFO tamaño del archivo: 138383360
+01:19:06,938 root INFO tiempo: 218378
+01:19:06,938 root INFO numero de fragmentos: 135140
+01:19:06,938 root INFO tamaño del archivo: 138383360
+01:19:07,239 root INFO tiempo: 218948
+01:19:07,239 root INFO numero de fragmentos: 135140
+01:19:07,239 root INFO tamaño del archivo: 138383360
+01:19:07,514 root INFO tiempo: 217194
+01:19:07,514 root INFO numero de fragmentos: 135140
+01:19:07,515 root INFO tamaño del archivo: 138383360
+01:19:07,808 root INFO tiempo: 218535
+01:19:07,808 root INFO numero de fragmentos: 135140
+01:19:07,809 root INFO tamaño del archivo: 138383360
+01:19:08,826 root INFO tiempo: 219230
+01:19:08,826 root INFO numero de fragmentos: 135140
+01:19:08,826 root INFO tamaño del archivo: 138383360
+01:19:08,956 root INFO tiempo: 219064
+01:19:08,956 root INFO numero de fragmentos: 135140
+01:19:08,956 root INFO tamaño del archivo: 138383360
+01:19:09,429 root INFO tiempo: 217172
+01:19:09,429 root INFO numero de fragmentos: 135140
+01:19:09,429 root INFO tamaño del archivo: 138383360
+01:19:09,581 root INFO tiempo: 218334
+01:19:09,581 root INFO numero de fragmentos: 135140
+01:19:09,581 root INFO tamaño del archivo: 138383360
+01:19:09,595 root INFO tiempo: 217644
+01:19:09,595 root INFO numero de fragmentos: 135140
+01:19:09,595 root INFO tamaño del archivo: 138383360
+01:19:10,337 root INFO tiempo: 219723
+01:19:10,337 root INFO numero de fragmentos: 135140
+01:19:10,337 root INFO tamaño del archivo: 138383360
+01:19:10,803 root INFO tiempo: 217900
+01:19:10,803 root INFO numero de fragmentos: 135140
+01:19:10,803 root INFO tamaño del archivo: 138383360
+01:19:10,906 root INFO tiempo: 218325
+01:19:10,907 root INFO numero de fragmentos: 135140
+01:19:10,907 root INFO tamaño del archivo: 138383360
+01:19:11,827 root INFO tiempo: 220233
+01:19:11,827 root INFO numero de fragmentos: 135140
+01:19:11,827 root INFO tamaño del archivo: 138383360
+01:23:06,254 root INFO tiempo: 323137
+01:23:06,258 root INFO numero de fragmentos: 135140
+01:23:06,258 root INFO tamaño del archivo: 138383360
+01:23:07,115 root INFO tiempo: 324639
+01:23:07,115 root INFO numero de fragmentos: 135140
+01:23:07,115 root INFO tamaño del archivo: 138383360
+01:23:14,261 root INFO tiempo: 331546
+01:23:14,261 root INFO numero de fragmentos: 135140
+01:23:14,261 root INFO tamaño del archivo: 138383360
+01:23:19,120 root INFO tiempo: 336936
+01:23:19,120 root INFO numero de fragmentos: 135140
+01:23:19,120 root INFO tamaño del archivo: 138383360
+01:23:22,241 root INFO tiempo: 338193
+01:23:22,241 root INFO numero de fragmentos: 135140
+01:23:22,241 root INFO tamaño del archivo: 138383360
+01:23:27,642 root INFO tiempo: 344298
+01:23:27,643 root INFO numero de fragmentos: 135140
+01:23:27,643 root INFO tamaño del archivo: 138383360
+01:23:27,881 root INFO tiempo: 344132
+01:23:27,881 root INFO numero de fragmentos: 135140
+01:23:27,881 root INFO tamaño del archivo: 138383360
+01:23:29,119 root INFO tiempo: 344417
+01:23:29,119 root INFO numero de fragmentos: 135140
+01:23:29,119 root INFO tamaño del archivo: 138383360
+01:23:33,183 root INFO tiempo: 347423
+01:23:33,183 root INFO numero de fragmentos: 135140
+01:23:33,183 root INFO tamaño del archivo: 138383360
+01:23:33,198 root INFO tiempo: 347848
+01:23:33,199 root INFO numero de fragmentos: 135140
+01:23:33,199 root INFO tamaño del archivo: 138383360
+01:23:37,112 root INFO tiempo: 352058
+01:23:37,115 root INFO numero de fragmentos: 135140
+01:23:37,115 root INFO tamaño del archivo: 138383360
+01:23:38,885 root INFO tiempo: 352789
+01:23:38,885 root INFO numero de fragmentos: 135140
+01:23:38,885 root INFO tamaño del archivo: 138383360
+01:23:39,692 root INFO tiempo: 355261
+01:23:39,692 root INFO numero de fragmentos: 135140
+01:23:39,692 root INFO tamaño del archivo: 138383360
+01:23:43,85 root INFO tiempo: 354368
+01:23:43,85 root INFO numero de fragmentos: 135140
+01:23:43,85 root INFO tamaño del archivo: 138383360
+01:23:43,120 root INFO tiempo: 354710
+01:23:43,120 root INFO numero de fragmentos: 135140
+01:23:43,120 root INFO tamaño del archivo: 138383360
+01:23:44,798 root INFO tiempo: 357713
+01:23:44,798 root INFO numero de fragmentos: 135140
+01:23:44,798 root INFO tamaño del archivo: 138383360
+01:23:45,551 root INFO tiempo: 358099
+01:23:45,552 root INFO numero de fragmentos: 135140
+01:23:45,552 root INFO tamaño del archivo: 138383360
+01:23:46,286 root INFO tiempo: 359405
+01:23:46,286 root INFO numero de fragmentos: 135140
+01:23:46,286 root INFO tamaño del archivo: 138383360
+01:23:47,509 root INFO tiempo: 361102
+01:23:47,509 root INFO numero de fragmentos: 135140
+01:23:47,509 root INFO tamaño del archivo: 138383360
+01:23:56,292 root INFO tiempo: 368225
+01:23:56,292 root INFO numero de fragmentos: 135140
+01:23:56,292 root INFO tamaño del archivo: 138383360
+01:23:57,704 root INFO tiempo: 369835
+01:23:57,704 root INFO numero de fragmentos: 135140
+01:23:57,704 root INFO tamaño del archivo: 138383360
+01:23:58,888 root INFO tiempo: 368608
+01:23:58,888 root INFO numero de fragmentos: 135140
+01:23:58,888 root INFO tamaño del archivo: 138383360
+01:23:59,443 root INFO tiempo: 368013
+01:23:59,443 root INFO numero de fragmentos: 135140
+01:23:59,443 root INFO tamaño del archivo: 138383360
+01:24:02,536 root INFO tiempo: 373120
+01:24:02,537 root INFO numero de fragmentos: 135140
+01:24:02,537 root INFO tamaño del archivo: 138383360
+01:24:04,519 root INFO tiempo: 372778
+01:24:04,519 root INFO numero de fragmentos: 135140
+01:24:04,519 root INFO tamaño del archivo: 138383360
+01:24:05,54 root INFO tiempo: 375323
+01:24:05,54 root INFO numero de fragmentos: 135140
+01:24:05,55 root INFO tamaño del archivo: 138383360
+01:24:06,83 root INFO tiempo: 376885
+01:24:06,83 root INFO numero de fragmentos: 135140
+01:24:06,83 root INFO tamaño del archivo: 138383360
+01:24:06,343 root INFO tiempo: 375258
+01:24:06,343 root INFO numero de fragmentos: 135140
+01:24:06,343 root INFO tamaño del archivo: 138383360
+01:24:08,267 root INFO tiempo: 377841
+01:24:08,269 root INFO numero de fragmentos: 135140
+01:24:08,269 root INFO tamaño del archivo: 138383360
+01:24:08,922 root INFO tiempo: 378182
+01:24:08,922 root INFO numero de fragmentos: 135140
+01:24:08,922 root INFO tamaño del archivo: 138383360

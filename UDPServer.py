@@ -51,7 +51,6 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
     def handle(self):
         global minimo
         global numero_usuarios
-        global f
         global logger
         numero_usuarios+=1
         global nombre_archivo
@@ -81,12 +80,12 @@ class MyUDPHandler(socketserver.BaseRequestHandler):
         #data, addr = socket.recvfrom(buf)
         tiempo_final = int(round(time.time() * 1000))
         tiempo_total = tiempo_final-tiempo_inicial
-        tiempo = "tiempo: "+ tiempo_total
+        tiempo = "tiempo: "+ str(tiempo_total)
         logger.info(tiempo)
-        paquetes = "numero de fragmentos: "+numero_paquetes
+        paquetes = "numero de fragmentos: "+ str(numero_paquetes)
         logger.info(paquetes)
         tamanio_total = numero_paquetes*buf
-        tamanio = "tamaño del archivo: "+tamanio_total
+        tamanio = "tamaño del archivo: "+str(tamanio_total)
         logger.info(tamanio)
         #print(data.decode("utf-8"))
         #socket.close()
@@ -101,12 +100,12 @@ if __name__ == "__main__":
     global minimo
     global numero_usuarios
     global hora_actual
-    global f
+    global file
     global logging
     now = datetime.now()
     hora_actual = now.strftime("%d-%m-%Y %H:%M:%S")
     nombre_log = hora_actual + ".txt"
-    f = open(nombre_log, 'x')
+    file = open(nombre_log, 'x')
     logging.basicConfig(filename=nombre_log,
                         filemode='a',
                         format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
@@ -120,7 +119,7 @@ if __name__ == "__main__":
     minimo = int(input("Ingrese el numero de usuarios en simultaneo a enviar"))
     hash_calculado = sha256sum(nombre_archivo)
     print(hash_calculado)
-    HOST, PORT = "localhost", 9999
+    HOST, PORT = "0.0.0.0", 9999
     server = ThreadedUDPServer((HOST, PORT), MyUDPHandler)
     server_thread = threading.Thread(target=server.serve_forever)
     server_thread.daemon = True
@@ -130,7 +129,7 @@ if __name__ == "__main__":
         print("Server started at {} port {}".format(HOST, PORT))
         while True: time.sleep(100)
     except (KeyboardInterrupt, SystemExit):
-        f.close()
+        file.close()
         server.shutdown()
         server.server_close()
         exit()

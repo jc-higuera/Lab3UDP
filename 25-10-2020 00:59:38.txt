@@ -1,0 +1,8 @@
+00:59:38,669 root INFO 25-10-2020 00:59:38
+00:59:45,745 root INFO 100MB.mp4
+01:00:00,443 root INFO tiempo: 6018
+01:00:00,443 root INFO numero de fragmentos: 135140
+01:00:00,443 root INFO tamaño del archivo: 138383360
+01:00:11,684 root INFO tiempo: 10631
+01:00:11,684 root INFO numero de fragmentos: 135140
+01:00:11,684 root INFO tamaño del archivo: 138383360

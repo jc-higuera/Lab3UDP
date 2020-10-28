@@ -1,0 +1,35 @@
+00:47:51,443 root INFO 27-10-2020 00:47:51
+00:48:03,287 root INFO 100MB.mp4
+00:48:53,770 root INFO tiempo: 12791
+00:48:53,771 root INFO numero de fragmentos: 65533
+00:48:53,771 root INFO tamaño del archivo: 67105792
+00:48:53,770 root INFO tiempo: 10992
+00:48:53,772 root INFO numero de fragmentos: 37255
+00:48:53,772 root INFO tamaño del archivo: 38149120
+00:48:53,771 root INFO tiempo: 6995
+00:48:53,772 root INFO numero de fragmentos: 14191
+00:48:53,772 root INFO tamaño del archivo: 14531584
+00:48:53,771 root INFO tiempo: 5883
+00:48:53,772 root INFO numero de fragmentos: 21491
+00:48:53,772 root INFO tamaño del archivo: 22006784
+00:48:53,770 root INFO tiempo: 11820
+00:48:53,772 root INFO numero de fragmentos: 49692
+00:48:53,772 root INFO tamaño del archivo: 50884608
+00:48:53,771 root INFO tiempo: 9885
+00:48:53,772 root INFO numero de fragmentos: 38686
+00:48:53,772 root INFO tamaño del archivo: 39614464
+00:48:53,771 root INFO tiempo: 4988
+00:48:53,773 root INFO numero de fragmentos: 10882
+00:48:53,773 root INFO tamaño del archivo: 11143168
+00:48:53,771 root INFO tiempo: 7945
+00:48:53,773 root INFO numero de fragmentos: 23292
+00:48:53,773 root INFO tamaño del archivo: 23851008
+00:48:53,771 root INFO tiempo: 13839
+00:48:53,773 root INFO numero de fragmentos: 81617
+00:48:53,773 root INFO tamaño del archivo: 83575808
+00:48:53,771 root INFO tiempo: 8948
+00:48:53,773 root INFO numero de fragmentos: 26424
+00:48:53,773 root INFO tamaño del archivo: 27058176
+00:48:59,887 root INFO tiempo: 5090
+00:48:59,887 root INFO numero de fragmentos: 27549
+00:48:59,888 root INFO tamaño del archivo: 28210176
